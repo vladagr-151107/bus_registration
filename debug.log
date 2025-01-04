@@ -1,0 +1,16 @@
+Header: Content-Length: 65
+Header: Origin: http://localhost:8080
+Header: Connection: keep-alive
+Header: Referer: http://localhost:8080/register
+Header: Upgrade-Insecure-Requests: 1
+Header: Sec-Fetch-Dest: document
+Header: Sec-Fetch-Mode: navigate
+Header: Sec-Fetch-Site: same-origin
+Header: Sec-Fetch-User: ?1
+Header: Priority: u=0, i
+Processing form submission
+POST data: name=Catherine+Pirs+&seats=1&email=vv%40gmail.com&route=Bucharest
+Extracted Data: Name=Catherine Pirs , Seats=1, Email=vv@gmail.com, Route=Bucharest
+Data successfully inserted into database
+Sending response with length 132
+Connection closed after response

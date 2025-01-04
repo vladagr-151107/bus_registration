@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Bus Ride Registration</title>
+  </head>
+  <body>
+    <h1>Register for a Bus Ride</h1>
+    <form method="POST" action="/register">
+      <label for="name">Full Name:</label><br />
+      <input type="text" name="name" required /><br />
+
+      <label for="seats">Number of Seats:</label><br />
+      <input type="number" name="seats" min="1" required /><br />
+
+      <label for="email">Email:</label><br />
+      <input type="email" name="email" required /><br />
+
+      <label for="route">Bus Route:</label><br />
+      <input type="text" name="route" required /><br /><br />
+
+      <input type="submit" value="Register" />
+    </form>
+  </body>
+</html>

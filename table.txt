@@ -1,0 +1,12 @@
+CREATE DATABASE bus_registration;
+
+USE bus_registration;
+
+CREATE TABLE registrations (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    seats INT NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    route VARCHAR(100) NOT NULL,
+    timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
